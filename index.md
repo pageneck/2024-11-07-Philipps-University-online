@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "0"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "0"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Nov 07-08, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "10:00 am - 4:30 pm CEST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "10:00 am - 4:30 pm CEST (8:00 am - 2:30 pm UTC)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-11-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2024-11-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Toby Hodges", "Pageneck Chikondowa"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -32,9 +32,6 @@ double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-
-
-{% comment %}
 
 {% comment %}
 Check DC curriculum
